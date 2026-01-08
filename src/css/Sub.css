@@ -1,0 +1,52 @@
+.movie_detail {
+  position: relative;
+  background: #fff;
+  width: 800px;
+  margin: 100px auto;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.movie_detail img {
+  padding: 10px;
+  width: 300px;
+  margin-right: 200px;
+}
+
+.detail {
+  width: 400px;
+  line-height: 30px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.detail>li:first-child {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 30px 0px;
+}
+
+.detail>li:nth-child(6) {
+  color: #f00;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.detail li span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.detail button {
+  border: none;
+  padding: 10px 30px;
+  margin-top: 100px;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.detail button:hover {
+  background-color: rgb(51, 51, 51, 0.8);
+}

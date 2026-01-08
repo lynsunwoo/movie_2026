@@ -35,6 +35,7 @@ function Router() {
           <li>Link = html5의 a 태그와 같다. 미리보기시 a태그로 변경됨.</li>
         </ul>
 
+        <h3>3. 결과</h3>
         <p>{productId}번 페이지입니다.</p>
         <ul>
           <li>hash : {location.hash}</li>

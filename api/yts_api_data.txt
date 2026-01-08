@@ -1,0 +1,24 @@
+1. 영화 db데이터 제공사이트
+https://yts.lt/api
+
+2. endpoint 주소
+https://yts.lt/api/v2/list_movies.json
+
+3. json viewer 도구로 영화데이터 분석
+status : ok  (응답상태)
+movie_count : 72017 (영화데이터 개수)
+limit : 20, (보내준 영화데이터 개수)
+movies는 배열 객체
+객체안에는 id, url, imdb_code, title...... 키와 값이 존재
+불법사이트라 주소가 매번 변경될 수 있음.
+
+4. 노마드코더에서 준 json데이터 주소(연결안됨)
+yts-proxy.now.sh/list_movies.json
+yts-proxy.now.sh/movie_details.json
+
+5. 영화 정보 더 자세히 보기 위해 조건 추가하기
+아이디가 10인 영화 정보 가져오기
+https://yts.lt/api/v2/movie_details.json?movie_id=10
+
+평점순으로 영화 정보 가져오기
+https://yts.lt/api/v2/list_movies.json?sort_by=rating
